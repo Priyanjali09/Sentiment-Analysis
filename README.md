@@ -57,27 +57,28 @@ LIBRARIES USED:
 ⦁	Vectorization uses the "CountVectorizer" library of the "sklearn.feature_extraction.text" package.
 ![image](https://user-images.githubusercontent.com/70806075/177723917-2d6335b8-5cc5-414f-94e6-74878db23109.png)
 
-⦁	.For Classification purpose the project uses the MULTINOMIAL NAIVE BAYES algorithm.
+⦁	For Classification purpose the project uses the MULTINOMIAL NAIVE BAYES algorithm.
   
   It uses the "MultinomialNB" library of the "sklearn.naive_bayes" package.
 ![image](https://user-images.githubusercontent.com/70806075/177724147-9257ab15-c377-46a3-a2cf-eba4eea81b52.png)
 
 TRAINING THE MODEL:
 
-The project uses a train data so as to train the model. This train data consists of several sentences that are feeded to the system so that they can be recognised as sentiments of positivity or negativity.
+The project uses a train data so as to train the model.This model has been uploaded from Kaggle. This train data consists of several sentences that are feeded to the system so that they can be recognised as sentiments of positivity or negativity.
 
 This data set is used to help machine understand the basic words which are used by each and every individual to share his feelings.
 
-Based on this , the constraints for the data are given according to which 1 is for Positive textual data and 0 is for Negative textual data.
+![image](https://user-images.githubusercontent.com/70806075/179086709-c9ad2e30-052e-4ba2-a162-1c82440aa13c.png)
 
-![image](https://user-images.githubusercontent.com/70806075/177722633-a6102fb3-0bc7-400b-9d09-1ef833728571.png)
 
 TESTING THE MODEL:
 
-⦁	The test data in the project has been given as one Positive sentence related with "happiness,enjoyment,etc. ,other joyful intentions".
+⦁	The test data in the project has been given as a combination of Positive sentences related with "happiness,enjoyment,etc. ,other joyful intentions" and secondly as Negative sentences related with "sadness,crying,etc. other bad experiences".
 
-⦁	The second test data has been given as a Negative sentence related with "sadness,crying,etc. other bad experiences".
-![image](https://user-images.githubusercontent.com/70806075/177723800-eb3e479c-cf55-4428-aa80-3f3c5be62234.png)
+⦁	The train and test data are uploaded to the repository along with code for ease and betetr understanding of the model.
+
+
+![image](https://user-images.githubusercontent.com/70806075/179087819-a0c10a47-2330-456d-b00e-67e5e76bccf5.png)
 
 Now it is the duty of this model to analyse these test values to understand the SENTIMENTS of the following values.
 This is the entire concept of Sentiment Analysis Model.
@@ -85,7 +86,7 @@ This is the entire concept of Sentiment Analysis Model.
 
 OUTPUT:
 
-The output of this model is hence expected to be [1,0] on the basis of test values passed to the model wherein, 1 is for happy movie experience and 0 if for other test data according to which movie experience was not good.
+The output of this model is hence expected to be on the basis of test values passed to the model wherein, 1 is for happy experience and 0 if for other test data according to which experience was not good.
 ![image](https://user-images.githubusercontent.com/70806075/177724250-e8611b15-1159-4ada-91ee-0fb93807c588.png)
 
 
